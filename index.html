@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Wrapper Project</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div id="profileSearch">
+        <h1>Your Awesome Github Profile..!</h1>
+
+        <div id="inputGithubId">
+        <input id="inputYourProfile" placeholder="Type Your Github Id">
+        <button id="showDetails">Show details</button>
+        </div>
+
+    </div>
+
+
+    <div id="profileInfo">
+        <!-- <div id="myProfile">
+            <div id="myImg">
+                <img id="image" src="${data.avatar_url }">
+            </div>
+            <div id="nameanddetails">
+                <h2 id="name">${data.name}</h2>
+                <p id="githubid">${data.login}</p>
+                <p id="headline">${data.bio}</p>
+                <p id="followersandfollowing">follower:${followers} following:${following}</p>
+            </div>    
+        </div> -->
+    </div>
+
+    <div id="showRepos">
+            
+        <div id="repoheading">
+            <div id="reposlist">
+                <h1>Top Repos</h1>
+                <p>sortby</p>
+                <select id="Selectsort">
+                    <option id="forks">forks</option>
+                    <option id="stars">stars</option>
+                    <option id="size">size</option>
+                </select>
+            </div>
+
+            <div id="repossearch">
+                <input id="searchbar" placeholder="Search repo here">
+                <button id="search">Search</button>
+            </div>
+        </div>
+
+        <div class="allrepos">
+            <!-- <div class="repository" id="repository${i}">
+                <img id="proimage" src="pro.jpg" >
+                <p id="prodescription">${repos[i].description}</p>
+                <button id="checkoutproject"><a href="#">Do Checkout This Project<a></button>
+            </div> -->
+        </div> 
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

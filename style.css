@@ -1,0 +1,203 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(190, 186, 186);
+    font-weight:600;
+  }
+
+#profileSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #495053; */
+    padding:30px;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+#myProfile{
+    background-color: rgb(153, 155, 155);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:750px;
+    border-radius: 10px;
+    margin:10px;
+    
+}
+
+#profileInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+#nameanddetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+#nameanddetails p, h2{
+    margin: 5px 0px;
+}
+
+#myImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#image{
+    border-radius: 50%;
+    width:80%;
+    object-fit: cover;
+    height: auto;
+    min-width:150px;
+}
+
+#inputYourProfile{
+    padding:10px;
+    border: 1px solid grey ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px grey;
+    font-size: 20px;
+    color:rgb(3, 3, 3);
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#inputGithubId{
+    margin:20px;
+}
+#showDetails{
+    padding:10px;
+    background-color: rgb(235, 111, 10);
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px grey;
+}
+
+#showRepos{
+    /* background-color: rgb(132, 132, 182); */
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#searchbar{
+    padding:5px;
+    border: 1px solid grey ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px grey;
+    font-size: 20px;
+    color:whitesmoke;
+    margin-right:10px;
+    max-width: 180px;
+    margin-left: 10px;
+}
+
+#search{
+    padding:5px;
+    background-color: rgb(235, 111, 10);
+    /* rgb(73, 73, 163); */
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px grey;
+    
+    
+}
+
+#repoheading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0px 62px;
+    
+}
+
+#repossearch{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#reposlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width:280px;
+    margin:3px 0px;
+}
+
+.allrepos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:10px;
+    /* background-color: rgb(88, 58, 18); */
+    
+}
+
+.repository{
+    background-color: rgb(160, 157, 151);
+    display: flex;
+    flex-direction: column;
+    width:380px;
+    height: 400px;
+    margin:15px;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border-radius: 10px;
+    
+}
+
+
+#proimage{
+    width:150px;
+    height:auto;
+    padding-top: 20px;
+}
+
+#prodescription{
+    margin:0px 10px;
+}
+
+a{
+    padding:5px 10px;
+    background-color: rgb(235, 111, 10);
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px grey;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+
+#checkoutproject{
+    margin-bottom: 20px;
+    text-decoration: none;
+    border: 0px;
+    
+}
